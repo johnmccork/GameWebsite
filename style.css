@@ -1,0 +1,55 @@
+body{
+    background-color: #5c5858;
+}
+
+.centered{
+    text-align: center;
+}
+
+.downsize{
+    font-size: smaller;
+    opacity: 80%;
+}
+
+p{
+    font-family:"Rubik Mono One";
+}
+
+h1{
+    color: #36366B;
+    font-family:"Rubik Mono One";
+    border-bottom: black 2px solid;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+nav, ul{
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+    padding-left: 3%;
+}
+
+ul{
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family:"Rubik Mono One";
+}
+
+nav p{
+    font-family:"Rubik Mono One";
+    font-weight: bolder;
+    font-size: larger;
+}
