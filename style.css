@@ -1,55 +1,64 @@
 body{
-    background-color: #5c5858;
+    background-color: #282533;
 }
 
-.centered{
-    text-align: center;
-}
-
-.downsize{
-    font-size: smaller;
-    opacity: 80%;
-}
-
-p{
+nav{
+    background-color: #4f4e54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    border-bottom: 2px solid black;
     font-family:"Rubik Mono One";
 }
 
 h1{
     color: #36366B;
-    font-family:"Rubik Mono One";
-    border-bottom: black 2px solid;
-    margin-bottom: 2%;
-    text-align: center;
-}
-
-nav, ul{
-    display: flex;
-}
-
-nav{
-    justify-content: space-between;
-    padding-left: 3%;
 }
 
 ul{
-    width: 20%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-li{
+    display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 a{
     text-decoration: none;
-    color: aliceblue;
-    font-family:"Rubik Mono One";
+    color: #d9d3f2;
+    margin-left: 20px;
+    padding: 10px 20px;
+    transition: 0.2s;
 }
 
-nav p{
-    font-family:"Rubik Mono One";
-    font-weight: bolder;
-    font-size: larger;
+a:hover{
+    color: #6641fa;
+}
+
+a.active{
+    color: #6641fa;
+    font-weight: bold;
+}
+div.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.general{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family:"Iceland";
+    border: 2px dotted black;
+    max-width:50%;
+    background-color: #4f4e54;
+}
+div.image{
+    text-align: center;
+}
+
+h2{
+    color: #9494f7;
+}
+
+p{
+    color: #d9d3f2;
 }
