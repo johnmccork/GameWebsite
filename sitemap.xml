@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <Loc>https://www.example/.com/</loc>
+        <Loc>https://johnmccork.github.io/GameWebsite/index.html</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://www.example.com/about</loc>
+        <loc>https://johnmccork.github.io/GameWebsite/about.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://www.example.com/blog</loc>
+        <loc>https://johnmccork.github.io/GameWebsite/blog.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://www.example/.com/contact</Loc>
+        <loc>https://johnmccork.github.io/GameWebsite/contact.html</Loc>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
